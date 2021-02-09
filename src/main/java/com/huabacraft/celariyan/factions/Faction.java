@@ -1,5 +1,9 @@
 package com.huabacraft.celariyan.factions;
 
-public interface Faction {
+import lombok.Getter;
 
+@Getter
+public abstract class Faction {
+
+    private FactionType type;
 }

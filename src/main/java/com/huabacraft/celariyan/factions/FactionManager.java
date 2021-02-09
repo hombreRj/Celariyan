@@ -16,4 +16,8 @@ public class FactionManager {
         factions.add(new Elves());
         factions.add(new Mages());
     }
+
+    public static Faction getFaction(String name){
+        return factions.stream().filter(faction -> faction.getType().getName().equalsIgnoreCase(name)).findFirst().orElse(null);
+    }
 }

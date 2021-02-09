@@ -1,0 +1,6 @@
+name: Celariyan
+version: ${project.version}
+main: com.huabacraft.celariyan.Celariyan
+api-version: 1.16
+authors: [ iamrj ]
+description: MMORGP
